@@ -7,7 +7,7 @@
 #       git clone https://github.com/timCF/bashutils.git && cd ./bashutils && ./macmini.sh
 #
 brew update
-brew cask install iterm2 google-chrome atom amethyst slack skype java libreoffice thunderbird puush xquartz android-studio
+brew cask install iterm2 google-chrome atom amethyst slack skype java libreoffice thunderbird puush xquartz android-studio telegram
 brew install wget curl elixir node python openssl nginx ruby protobuf fop wine homebrew/versions/mysql56 postgres watchman
 brew tap homebrew/dupes
 brew install grep libtool automake autoconf
