@@ -6,16 +6,15 @@
 #       /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 #       git clone https://github.com/timCF/bashutils.git && cd ./bashutils && ./macmini.sh
 #
+
+set -e
+
 brew update
-brew cask install iterm2 google-chrome atom amethyst slack skype java libreoffice puush xquartz android-studio telegram
-brew install wget curl elixir node python openssl nginx ruby protobuf fop wine homebrew/versions/mysql56 postgres watchman
+brew cask install iterm2 google-chrome atom amethyst spectacle slack skype telegram whatsapp java libreoffice xquartz
+brew install wget curl elixir node python openssl ruby protobuf fop wine postgres watchman
 brew tap homebrew/dupes
 brew install grep libtool automake autoconf
 mix local.hex --force
 mix local.rebar --force
-apm install language-elixir autocomplete-elixir language-protobuf language-sass language-erlang language-elm
-npm cache clean
-npm install npm -g
-npm install brunch bower react-native-cli elm elchemy -g
-sudo chown -R $(whoami) /Library/Ruby/Gems/2.0.0
-gem install sass jekyll
+apm install language-elixir autocomplete-elixir language-protobuf language-erlang language-elm
+gem install bundler jekyll
